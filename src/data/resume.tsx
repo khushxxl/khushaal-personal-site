@@ -1,0 +1,260 @@
+import { Icons } from "@/components/icons";
+import { li } from "framer-motion/client";
+import { HomeIcon, NotebookIcon } from "lucide-react";
+
+export const DATA = {
+  name: "Khushaal Choithramani",
+  initials: "Khush",
+  url: "https://dillion.io",
+  location: "Dundee, United Kingdom",
+  description: "Software Engineer & Freelancer",
+  summary:
+    "Started programming in 2021, and haven't stopped since. I've worked on a variety of projects, from building SaaS products to freelancing. Right now I am studying Computer Science at the University of Dundee and I am in my 3rd year. I have managed to do quite a few internships and freelance projects, and I am always looking for new opportunities to work on. I also love to make youtube videos, and make good content on my channel.",
+  avatarUrl:
+    "https://pbs.twimg.com/profile_images/1820021257552773120/bgAQmFYe_400x400.jpg",
+  skills: [
+    "React Native",
+    "Expo",
+    "React",
+    "Next.js",
+    "Typescript",
+    "Node.js",
+    "Python",
+    "Postgres",
+    "Docker",
+    "Java",
+    "C++",
+  ],
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+  ],
+  contact: {
+    email: "khushaalchoithramani@gmail.com",
+    social: {
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/khushxxl",
+        icon: Icons.github,
+
+        navbar: true,
+      },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/khushcodes/",
+        icon: Icons.linkedin,
+
+        navbar: true,
+      },
+      X: {
+        name: "X",
+        url: "https://twitter.com/khushaal_04",
+        icon: Icons.x,
+
+        navbar: true,
+      },
+      Youtube: {
+        name: "Youtube",
+        url: "https://www.youtube.com/@codewithkhush",
+        icon: Icons.youtube,
+        navbar: true,
+      },
+      email: {
+        name: "Send Email",
+        url: "mailto:khushaal.choithramani@gmail.com",
+        icon: Icons.email,
+
+        navbar: true,
+      },
+    },
+  },
+
+  work: [
+    {
+      company: "Regulaitor AI",
+      badges: [],
+      href: "",
+      location: "Remote",
+      title: "Frontend & AI Intern",
+      logoUrl: "https://i.ibb.co/YQPTHsz/Group-1171274978.png",
+      start: "Sept 2024",
+      end: "Nov 2024",
+      description: `
+      Built the complete frontend for an AI-driven financial advisory platform designed to generate reports and
+      deliver in-depth analytics.
+      - Developed the frontend using Next.js and React, enabling a smooth and intuitive user interface.
+      - Integrated MongoDB with the frontend for seamless data handling and retrieval.
+      - Utilized React Query and AI frameworks (Llama, Claude, LangChain) to power complex data queries and
+      generate AI responses & React Charts for Analytics
+      `,
+    },
+    {
+      company: "Makamba Maternity",
+      badges: [],
+      href: "https://apps.apple.com/app/id6469010105",
+      location: "Remote",
+      title: "Full Stack App Developer Intern",
+      logoUrl: "https://i.ibb.co/qNmq5PS/Screenshot-2024-11-27-at-02-34-56.png",
+      start: "Jan 2023",
+      end: "April 2023",
+      description: `Makamba Maternity - is a mobile app built for pregnant women to help them with their
+pregnancy and to deal with doctors while tracking their progress
+- I managed to build the entire frontend of the mobile app using React Native and Typescript.
+- Managed to implement in-app payments, push notifications & Google Cloud Storage.
+- The app extends more complex features like booking a meeting with doctor, messaging and much more.`,
+    },
+    {
+      company: "Viia",
+      href: "https://apps.apple.com/gb/app/viia/id6447322346",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack App Developer Intern",
+      logoUrl: "https://i.ibb.co/KDZD0j7/Screenshot-2024-11-27-at-02-35-59.png",
+      start: "Sept 2022",
+      end: "Feb 2023",
+      description: `Developed Viia, a carpooling app for users in Manchester, Birmingham, and London, aimed at
+reducing travel costs.
+- Developed a high-performing mobile frontend using React Native and TypeScript.
+- Integrated Google Cloud Maps and Firebase Storage, enabling in-app payments, real-time
+driver locations, and driver messaging.`,
+    },
+  ],
+  education: [
+    {
+      school: "University of Dundee",
+      href: "https://dundee.ac.uk",
+      degree: "BSc(Hons) Computer Science",
+      logoUrl:
+        "https://imgs.search.brave.com/nktYxrZaYcR3XFgpbmW83nU8rwGt7ckfMyPMp3I0CEw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi84Lzg4L0Fy/bXNfb2ZfdGhlX1Vu/aXZlcnNpdHlfb2Zf/RHVuZGVlLnN2Zy81/MTJweC1Bcm1zX29m/X3RoZV9Vbml2ZXJz/aXR5X29mX0R1bmRl/ZS5zdmcucG5n",
+      start: "2022",
+      end: "2026",
+    },
+  ],
+  projects: [
+    {
+      title: "Viia",
+      href: "https://apps.apple.com/gb/app/viia/id6447322346",
+      active: true,
+      description:
+        "Developed a carpooling application that can help users lower down their travel expenses by a great percentage, without cutting down on a great travel experience, with a great provided security. Primary goal of the app was to travel safest, with necessary and extended security.",
+      technologies: ["React Native", "React", "Node.js", "Expo", "Firebase"],
+      links: [
+        {
+          type: "Mobile App",
+          href: "https://apps.apple.com/gb/app/viia/id6447322346",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/RQVXGJZ/918shots-so.png",
+      dates: "",
+    },
+    {
+      title: "Makamba Maternity",
+      href: "https://apps.apple.com/app/id6469010105",
+      active: true,
+      description:
+        "Developed a pregnancy tracker app, which includes all the functionalities for a mother, and makes her pregnancy tracking easy. Includes a on service doctor on chat / call subscriptions. A complete SASS product.",
+      technologies: ["React Native", "React", "Node.js", "Expo", "Firebase"],
+      links: [
+        {
+          type: "Mobile App",
+          href: "https://apps.apple.com/app/id6469010105",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/g3MgYF4/370shots-so.png",
+      dates: "",
+    },
+    {
+      title: "Fitness Centre",
+      href: "https://apps.apple.com/gb/app/fit-center/id6479176792",
+      active: true,
+      description:
+        "Developed a fitness centre app, which allows users to get personally trained, tailored workout plans, track their progress and much more. The app is compleely scalable and is being used by actual users & trainers",
+      technologies: [
+        "React Native",
+        "React",
+        "Node.js",
+        "Expo",
+        "Firebase",
+        "Stripe",
+      ],
+      links: [
+        {
+          type: "Mobile App",
+          href: "https://apps.apple.com/gb/app/fit-center/id6479176792",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/ZJy3vgM/575shots-so.png",
+      dates: "",
+    },
+    {
+      title: "Just Signup Me",
+      href: "https://justsignup.me",
+      active: true,
+      description:
+        "Allows you to simply collec emails from the frontend with no need of backend, a email service or a server - handles everything by itslef. Gives anlytical data, table of signed up users and more.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Supabase",
+        "Resend",
+        "TailwindCSS",
+        "Stripe",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://justsignup.me",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/nQ7K5Nn/265shots-so.png",
+      dates: "",
+    },
+  ],
+  hackathons: [
+    {
+      title: "DurHack - Durham University",
+      dates: "Nov 2nd - 4th, 2024",
+      location: "Durham, United Kingdom",
+      description:
+        "Developed a mobile app which allows users/financial advisors to analyse fraud calls to & be safe from legal frauds. The app uses AI to analyse the call and provide a report on the call.",
+      image: "https://durhack.com/assets/branding/durhack-2024-mark.svg",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/khushxxl/durhack_atom_mobile_app",
+        },
+      ],
+    },
+    {
+      title: "Quackathon - University of Dundee",
+      dates: "May 2024",
+      location: "Dundee, United Kingdom",
+      description:
+        "A blockchain based platform which allows users to create and trade their own NFTs. It's a learning platform for users to learn about blockchain and NFTs. Trade, Track, Create, Learn.",
+      image: "https://ducs.dev/images/ducs_logo.webp",
+
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Wallet6/my6footprint-machine-learning",
+        },
+      ],
+    },
+    {
+      title: "Quackathon - University of Dundee",
+      dates: "May 2023",
+      location: "Dundee, United Kingdom",
+      description:
+        "A mobile app which allows users to literate themselves about money and finance. The app uses AI to provide personalised financial advice to users. Consisted of a piggy bank, a quiz and a chatbot.",
+      image: "https://ducs.dev/images/ducs_logo.webp",
+      links: [],
+    },
+  ],
+} as const;
