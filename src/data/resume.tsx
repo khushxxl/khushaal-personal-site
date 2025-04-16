@@ -8,9 +8,9 @@ export const DATA = {
   location: "Dundee, United Kingdom",
   description: "Software Engineer & Freelancer",
   summary:
-    "Started programming in 2021, and haven't stopped since. I've worked on a variety of projects, from building SaaS products to freelancing. Right now I am studying Computer Science at the University of Dundee and I am in my 3rd year. I have managed to do quite a few internships and freelance projects, and I am always looking for new opportunities to work on. I also love to make youtube videos, and make good content on my channel.",
+    "Started programming in 2021, and haven't stopped since. I've worked on a variety of projects, from building SaaS products to freelancing. Right now I am studying Computer Science at the University of Dundee and I am in my 3rd year. I have managed to do quite a few internships and freelance projects, and I am always looking for new opportunities to work on.",
   avatarUrl:
-    "https://pbs.twimg.com/profile_images/1820021257552773120/bgAQmFYe_400x400.jpg",
+    "https://pbs.twimg.com/profile_images/1887198835547443200/HhFgZDsX_400x400.jpg",
   skills: [
     "React Native",
     "Expo",
@@ -69,6 +69,25 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Pathaka AI",
+      badges: [],
+      href: "https://pathaka.ai",
+      location: "Remote",
+      title: "Lead Mobile & AI Developer",
+      logoUrl:
+        "https://www.pathaka.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fapp-logo.6a5b6242.png&w=64&q=75&dpl=dpl_SCfFZ4eJmx7yA9PwQrjM3hciySux",
+      start: "Nov 2024",
+      end: "Present",
+      description: `
+      Built the complete frontend for an AI-driven financial advisory platform designed to generate reports and
+      deliver in-depth analytics.
+      - Developed the frontend using Next.js and React, enabling a smooth and intuitive user interface.
+      - Integrated MongoDB with the frontend for seamless data handling and retrieval.
+      - Utilized React Query and AI frameworks (Llama, Claude, LangChain) to power complex data queries and
+      generate AI responses & React Charts for Analytics
+      `,
+    },
     {
       company: "Regulaitor AI",
       badges: [],
@@ -131,12 +150,65 @@ driver locations, and driver messaging.`,
   ],
   projects: [
     {
+      title: "Strand AI",
+      href: "https://apps.apple.com/gb/app/strand-ai-hair-style-analysis/id6743377249",
+      active: true,
+      description:
+        "An AI powered hair analysis app, that can help you analyze 20+ attributes of your hair. It also generates a personalized hair care plan for you with an AI hair coach to give you best style recommendations.",
+      technologies: [
+        "React Native",
+        "React",
+        "Node.js",
+        "Expo",
+        "Supabase",
+        "OpenAI",
+      ],
+      links: [
+        {
+          type: "Mobile App",
+          href: "https://apps.apple.com/gb/app/strand-ai-hair-style-analysis/id6743377249",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/CpM5MVHm/466shots-so.png",
+      dates: "",
+      downloads: "5500+",
+    },
+    {
+      title: "Pathaka AI",
+      href: "https://apps.apple.com/us/app/pathaka-ai-generate-podcasts/id6740544344",
+      active: true,
+      description:
+        "From a prompt to a podcast, Pathaka AI is a podcast generator that can help you generate a podcast from a prompt. Not a simple wrapper, gives you a complete 25 mins+ podcast, covering topic in depth. 1000+ podcasts in content library.",
+      technologies: [
+        "React Native",
+        "React",
+        "Node.js",
+        "Expo",
+        "Supabase",
+        "AWS",
+        "ElevenLabs",
+        "OpenAI",
+        "Claude",
+      ],
+      links: [
+        {
+          type: "Mobile App",
+          href: "https://apps.apple.com/us/app/pathaka-ai-generate-podcasts/id6740544344",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/GQR5fV1F/371shots-so.png",
+      dates: "",
+      downloads: "600+",
+    },
+    {
       title: "Viia",
       href: "https://apps.apple.com/gb/app/viia/id6447322346",
       active: true,
       description:
         "Developed a carpooling application that can help users lower down their travel expenses by a great percentage, without cutting down on a great travel experience, with a great provided security. Primary goal of the app was to travel safest, with necessary and extended security.",
-      technologies: ["React Native", "React", "Node.js", "Expo", "Firebase"],
+      technologies: ["React Native", "React", "Node.js", "Expo", "MongoDB"],
       links: [
         {
           type: "Mobile App",
@@ -163,6 +235,7 @@ driver locations, and driver messaging.`,
       ],
       image: "https://i.ibb.co/g3MgYF4/370shots-so.png",
       dates: "",
+      downloads: "",
     },
     {
       title: "Fitness Centre",
@@ -187,6 +260,7 @@ driver locations, and driver messaging.`,
       ],
       image: "https://i.ibb.co/ZJy3vgM/575shots-so.png",
       dates: "",
+      downloads: "",
     },
     {
       title: "Just Signup Me",
@@ -212,6 +286,7 @@ driver locations, and driver messaging.`,
       ],
       image: "https://i.ibb.co/nQ7K5Nn/265shots-so.png",
       dates: "",
+      downloads: "",
     },
   ],
   hackathons: [
