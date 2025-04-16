@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Khushaal Choithramani",
   initials: "Khush",
-  url: "https://dillion.io",
+  url: "https://khushcodezz.net",
   location: "Dundee, United Kingdom",
   description: "Software Engineer & Freelancer",
   summary:
