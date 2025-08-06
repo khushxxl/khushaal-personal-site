@@ -186,7 +186,7 @@ driver locations, and driver messaging.`,
       links: [
         {
           type: "Mobile App",
-          href: "https://apps.apple.com/app/whispra",
+          href: "https://apps.apple.com/gb/app/whispra-voice-journal-diary/id6746568356",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -195,7 +195,7 @@ driver locations, and driver messaging.`,
     },
     {
       title: "EasyChef AI",
-      href: "https://apps.apple.com/gb/app/whispra-voice-journal-diary/id6746568356",
+      href: "https://apps.apple.com/gb/app/easychefai/id6736747720",
       active: true,
       description:
         "An AI-powered recipe app that helps you cook delicious meals with ingredients you already have. Simply input what's in your kitchen and get personalized recipe suggestions, reducing food waste and making cooking easier. Features smart meal planning, dietary preferences, and recipes for all skill levels.",
@@ -210,7 +210,7 @@ driver locations, and driver messaging.`,
       links: [
         {
           type: "Mobile App",
-          href: "https://apps.apple.com/app/whispra",
+          href: "https://apps.apple.com/gb/app/easychefai/id6736747720",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -220,7 +220,7 @@ driver locations, and driver messaging.`,
     },
     {
       title: "Goodie AI",
-      href: "https://apps.apple.com/gb/app/whispra-voice-journal-diary/id6746568356",
+      href: "https://apps.apple.com/gb/app/goodie-ai-food-scanner/id6741483227",
       active: true,
       description:
         "A smart food scanner app that helps Gen Z make healthier choices. Instantly analyze ingredients, get personalized scores for health goals, and make informed decisions about what you eat. Powered by frontier AI models, it works globally in 150+ languages with zero judgement.",
@@ -235,7 +235,7 @@ driver locations, and driver messaging.`,
       links: [
         {
           type: "Mobile App",
-          href: "https://apps.apple.com/app/whispra",
+          href: "https://apps.apple.com/gb/app/goodie-ai-food-scanner/id6741483227",
           icon: <Icons.globe className="size-3" />,
         },
       ],
