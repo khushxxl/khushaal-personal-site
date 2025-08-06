@@ -171,7 +171,7 @@ driver locations, and driver messaging.`,
   projects: [
     {
       title: "Whispra",
-      href: "https://apps.apple.com/app/whispra",
+      href: "https://apps.apple.com/gb/app/whispra-voice-journal-diary/id6746568356",
       active: true,
       description:
         "A real-time voice journaling app with an AI companion that talks back to you. Features include voice conversations, text chat, progress insights, and mood tracking. The AI provides personalized responses and helps users process their thoughts and emotions.",
