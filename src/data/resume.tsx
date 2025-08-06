@@ -8,7 +8,7 @@ export const DATA = {
   location: "Dundee, United Kingdom",
   description: "Software Engineer & Freelancer",
   summary:
-    "Started programming in 2021, and haven't stopped since. I've worked on a variety of projects, from building SaaS products to freelancing. Right now I am studying Computer Science at the University of Dundee and I am in my 3rd year. I have managed to do quite a few internships and freelance projects, and I am always looking for new opportunities to work on.",
+    "Started programming in 2021, and haven't stopped since. I've worked on a variety of projects, from building SaaS products to freelancing, and have shipped more than 10+ apps to the App Store. Right now I am studying Computer Science at the University of Dundee and I am in my 3rd year. I have managed to do quite a few internships and freelance projects, and I am always looking for new opportunities to work on.",
   avatarUrl:
     "https://pbs.twimg.com/profile_images/1887198835547443200/HhFgZDsX_400x400.jpg",
   skills: [
@@ -23,6 +23,8 @@ export const DATA = {
     "Docker",
     "Java",
     "C++",
+    "Java",
+    "Springboot",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -69,6 +71,24 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Barclays",
+      badges: [],
+      href: "https://www.barclays.co.uk",
+      location: "London, UK",
+      title: "Software Engineer Intern",
+      logoUrl:
+        "https://companieslogo.com/img/orig/BCS-745d30bf.png?t=1720244491",
+      start: "June 2025",
+      end: "Present",
+      description: `
+      Working as a Technical Summer Intern at Barclays, focusing on developing a critical internal tool.
+      - Leading development of an enterprise tool that will be utilized by 60+ teams across the organization
+      - Building robust and scalable solutions using Java and Spring Boot to support wide-scale adoption
+      - Collaborating with multiple teams to gather requirements and ensure the tool meets diverse needs
+      - Following agile methodologies and best practices for enterprise software development
+      `,
+    },
     {
       company: "Pathaka AI",
       badges: [],
@@ -149,6 +169,32 @@ driver locations, and driver messaging.`,
     },
   ],
   projects: [
+    {
+      title: "Whispra",
+      href: "https://apps.apple.com/app/whispra",
+      active: true,
+      description:
+        "A real-time voice journaling app with an AI companion that talks back to you. Features include voice conversations, text chat, progress insights, and mood tracking. The AI provides personalized responses and helps users process their thoughts and emotions.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "OpenAI",
+        "Supabase",
+        "WebSocket",
+        "WebRTC",
+      ],
+      links: [
+        {
+          type: "Mobile App",
+          href: "https://apps.apple.com/app/whispra",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/Nd7TH58b/Shots-Mockups-72.png",
+      dates: "",
+      downloads: "1000+",
+    },
+
     {
       title: "Strand AI",
       href: "https://apps.apple.com/gb/app/strand-ai-hair-style-analysis/id6743377249",
@@ -263,6 +309,30 @@ driver locations, and driver messaging.`,
       downloads: "",
     },
     {
+      title: "The Green Life - BlackRock Hackathon Winner 🏆",
+      dates: "May 2025",
+      location: "",
+      description:
+        "Developed a software for 'The Green Life', a BlackRock charity organization's initiative. Created a comprehensive platform with a 3D interactive map visualization showing global impact and reach. The platform manages social media content, handles campaign applications, schedules posts, and streamlines the application review process.",
+      technologies: [
+        "Next.js",
+        "React",
+        "Three.js",
+        "TailwindCSS",
+        "Supabase",
+        "Shadcn/UI",
+      ],
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="size-3" />,
+          href: "https://quackathon-2025.vercel.app/",
+        },
+      ],
+      image: "https://i.ibb.co/356br7Wy/Shots-Mockups-73.png",
+      downloads: "",
+    },
+    {
       title: "Just Signup Me",
       href: "https://justsignup.me",
       active: true,
@@ -291,6 +361,21 @@ driver locations, and driver messaging.`,
   ],
   hackathons: [
     {
+      title: "Quackathon: University of Dundee - Winner 🏆",
+      dates: "May 2025",
+      location: "Dundee, United Kingdom",
+      description:
+        "Developed an admin panel for 'The Green Life', a BlackRock charity organization's initiative. Created a comprehensive platform with a 3D interactive map visualization showing global impact and reach. The platform manages social media content, handles campaign applications, schedules posts, and streamlines the application review process.",
+
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://quackathon-2025.vercel.app/",
+        },
+      ],
+    },
+    {
       title: "DurHack - Durham University",
       dates: "Nov 2nd - 4th, 2024",
       location: "Durham, United Kingdom",
@@ -315,9 +400,9 @@ driver locations, and driver messaging.`,
 
       links: [
         {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://quackathon-2024.vercel.app/",
         },
       ],
     },
