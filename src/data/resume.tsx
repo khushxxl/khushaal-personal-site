@@ -192,7 +192,6 @@ driver locations, and driver messaging.`,
       ],
       image: "https://i.ibb.co/Nd7TH58b/Shots-Mockups-72.png",
       dates: "",
-      downloads: "1000+",
     },
 
     {
