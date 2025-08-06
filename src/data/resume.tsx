@@ -193,6 +193,56 @@ driver locations, and driver messaging.`,
       image: "https://i.ibb.co/Nd7TH58b/Shots-Mockups-72.png",
       dates: "",
     },
+    {
+      title: "EasyChef AI",
+      href: "https://apps.apple.com/gb/app/whispra-voice-journal-diary/id6746568356",
+      active: true,
+      description:
+        "An AI-powered recipe app that helps you cook delicious meals with ingredients you already have. Simply input what's in your kitchen and get personalized recipe suggestions, reducing food waste and making cooking easier. Features smart meal planning, dietary preferences, and recipes for all skill levels.",
+      technologies: [
+        "React Native",
+        "OpenAI",
+        "AWS",
+        "Google Cloud",
+        "Express",
+        "Node.js",
+      ],
+      links: [
+        {
+          type: "Mobile App",
+          href: "https://apps.apple.com/app/whispra",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/S7dhY2mg/Shots-Mockups-75.png",
+      dates: "",
+      downloads: "2.11k+",
+    },
+    {
+      title: "Goodie AI",
+      href: "https://apps.apple.com/gb/app/whispra-voice-journal-diary/id6746568356",
+      active: true,
+      description:
+        "A smart food scanner app that helps Gen Z make healthier choices. Instantly analyze ingredients, get personalized scores for health goals, and make informed decisions about what you eat. Powered by frontier AI models, it works globally in 150+ languages with zero judgement.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "OpenAI",
+        "Supabase",
+        "WebSocket",
+        "WebRTC",
+      ],
+      links: [
+        {
+          type: "Mobile App",
+          href: "https://apps.apple.com/app/whispra",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/4Z1vL1fM/Shots-Mockups-74.png",
+      dates: "",
+      downloads: "6.59k+",
+    },
 
     {
       title: "Strand AI",
@@ -217,7 +267,7 @@ driver locations, and driver messaging.`,
       ],
       image: "https://i.ibb.co/CpM5MVHm/466shots-so.png",
       dates: "",
-      downloads: "5500+",
+      downloads: "5.5k+",
     },
     {
       title: "Pathaka AI",
