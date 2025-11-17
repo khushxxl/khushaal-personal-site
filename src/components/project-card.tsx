@@ -78,7 +78,9 @@ export function ProjectCard({
             <CardTitle className="mt-1 text-base">{title}</CardTitle>
             {downloads && (
               <Badge className="font-sans text-xs rounded-full">
-                {downloads + " downloads"}
+                {downloads === "Acquired"
+                  ? "Acquired"
+                  : downloads + " downloads"}
               </Badge>
             )}
           </div>

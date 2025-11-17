@@ -170,29 +170,56 @@ driver locations, and driver messaging.`,
   ],
   projects: [
     {
-      title: "Whispra",
-      href: "https://apps.apple.com/gb/app/whispra-voice-journal-diary/id6746568356",
-      active: true,
+      title: "SMOKD",
       description:
-        "A real-time voice journaling app with an AI companion that talks back to you. Features include voice conversations, text chat, progress insights, and mood tracking. The AI provides personalized responses and helps users process their thoughts and emotions.",
-      technologies: [
-        "React Native",
-        "Expo",
-        "OpenAI",
-        "Supabase",
-        "WebSocket",
-        "WebRTC",
-      ],
+        "A smoking cessation app that helps users quit smoking by providing personalized advice and support. It uses AI to track users progress and provide better insights.",
+      image: "https://i.ibb.co/G65snC4/798shots-so.png",
+      technologies: ["React Native", "OpenAI", "Smoking Cessation App"],
+      href: "https://apps.apple.com/us/app/smokd-quit-smoking-now/id6749548805",
       links: [
         {
           type: "Mobile App",
-          href: "https://apps.apple.com/gb/app/whispra-voice-journal-diary/id6746568356",
+          href: "https://apps.apple.com/us/app/smokd-quit-smoking-now/id6749548805",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://i.ibb.co/Nd7TH58b/Shots-Mockups-72.png",
+      dates: "",
+      downloads: "500+",
+    },
+    {
+      title: "Sknly",
+      description:
+        "A skin assistant app that helps users take care of their skin by providing personalized routine and product recommendations.",
+      image: "https://i.ibb.co/ZDSX9cz/413shots-so.png",
+      technologies: ["React Native", "OpenAI", "Skin Assistant App"],
+      href: "https://apps.apple.com/gb/app/sknly-your-skin-assistant/id6753906320",
+      links: [
+        {
+          type: "Mobile App",
+          href: "https://apps.apple.com/gb/app/sknly-your-skin-assistant/id6753906320",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      dates: "",
+      downloads: "Acquired",
+    },
+    {
+      title: "NuHealth Recovery Companion",
+      description:
+        "A recovery companion app that helps users track their recovery journey, provide information, the app generates a personalized recovery plan for them. It connects to Nurecover products to track users progress and provide better insights.",
+      image: "https://i.ibb.co/7cZ0pH4/Shots-Mockups-80.png",
+      technologies: ["React Native", "OpenAI", "Recovery App"],
+      href: "https://apps.apple.com/gb/app/nuhealth-recovery-companion/id6751734725",
+      links: [
+        {
+          type: "Mobile App",
+          href: "https://apps.apple.com/gb/app/nuhealth-recovery-companion/id6751734725",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
       dates: "",
     },
+
     {
       title: "EasyChef AI",
       href: "https://apps.apple.com/gb/app/easychefai/id6736747720",
@@ -243,7 +270,30 @@ driver locations, and driver messaging.`,
       dates: "",
       downloads: "6.59k+",
     },
-
+    {
+      title: "Whispra",
+      href: "https://apps.apple.com/gb/app/whispra-voice-journal-diary/id6746568356",
+      active: true,
+      description:
+        "A real-time voice journaling app with an AI companion that talks back to you. Features include voice conversations, text chat, progress insights, and mood tracking. The AI provides personalized responses and helps users process their thoughts and emotions.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "OpenAI",
+        "Supabase",
+        "WebSocket",
+        "WebRTC",
+      ],
+      links: [
+        {
+          type: "Mobile App",
+          href: "https://apps.apple.com/gb/app/whispra-voice-journal-diary/id6746568356",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/Nd7TH58b/Shots-Mockups-72.png",
+      dates: "",
+    },
     {
       title: "Strand AI",
       href: "https://apps.apple.com/gb/app/strand-ai-hair-style-analysis/id6743377249",
