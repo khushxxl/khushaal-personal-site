@@ -131,6 +131,7 @@ export default function Page() {
             </div>
           </BlurFade>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
             {DATA.projects.map((project: any, id) => (
               <BlurFade
                 key={project.title}
